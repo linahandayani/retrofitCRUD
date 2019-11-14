@@ -45,18 +45,21 @@
             android:layout_columnWeight="1"
             android:background="@color/translucent_orange"
             android:gravity="center"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/image_karyawan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/ic_launcher" />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/mail" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Menu 1" />
+                android:text="Karyawan"
+                android:layout_marginTop="10dp"
+                />
         </LinearLayout>
     </GridLayout>
 
@@ -73,18 +76,18 @@
             android:layout_columnWeight="1"
             android:background="@color/sienna"
             android:gravity="center"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/user" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Menu 1" />
+
+                android:text="Mahasiswa" />
         </LinearLayout>
 
         <LinearLayout
@@ -92,18 +95,18 @@
             android:layout_height="match_parent"
             android:layout_columnWeight="1"
             android:background="@color/plum"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/user" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Menu 1" />
+                android:text="Ide" />
         </LinearLayout>
     </GridLayout>
 
@@ -120,18 +123,17 @@
             android:layout_columnWeight="1"
             android:background="@color/cornflower_blue"
             android:gravity="center"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/user" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Menu 1" />
+                android:text="ide" />
         </LinearLayout>
 
         <LinearLayout
@@ -140,18 +142,17 @@
             android:layout_columnWeight="1"
             android:background="@color/rosy_brown"
             android:gravity="center"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/bell" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Menu 1" />
+                android:text="ide" />
         </LinearLayout>
     </GridLayout>
     <!--    <LinearLayout-->
