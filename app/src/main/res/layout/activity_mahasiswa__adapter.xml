@@ -20,7 +20,7 @@
             android:layout_marginLeft="130dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:text="DAFTAR KARYAWAN"
+            android:text="DAFTAR MAHASISWA"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textStyle="bold"
@@ -35,7 +35,7 @@
         android:padding="4dp">
 
         <ImageView
-            android:id="@+id/iv_karyawan"
+            android:id="@+id/iv_mahasiswa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -49,28 +49,41 @@
 
         <!-- Nama karyawan-->
         <TextView
-            android:id="@+id/tv_nama_karyawan"
+            android:id="@+id/tv_nama_mahasiswa"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/iv_karyawan"
+            android:layout_alignBaseline="@+id/iv_mahasiswa"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="8dp"
-            android:layout_toRightOf="@+id/iv_karyawan"
+            android:layout_toRightOf="@+id/iv_mahasiswa"
             android:textColor="@android:color/black"
             android:textSize="24dp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_bagian"
+            android:id="@+id/tv_jurusan"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/tv_nama_karyawan"
-            android:layout_alignBaseline="@+id/iv_karyawan"
+            android:layout_below="@+id/tv_nama_mahasiswa"
+            android:layout_alignBaseline="@+id/iv_mahasiswa"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="2dp"
             android:layout_marginRight="8dp"
-            android:layout_toRightOf="@+id/iv_karyawan"
+            android:layout_toRightOf="@+id/iv_mahasiswa"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_id_mahasiswa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_nama_mahasiswa"
+            android:layout_alignBaseline="@+id/iv_mahasiswa"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="8dp"
+            android:layout_toRightOf="@+id/iv_mahasiswa"
             android:textColor="@android:color/holo_blue_dark"
             android:textSize="16dp" />
 
@@ -78,7 +91,7 @@
             android:id="@+id/buttonHapus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/tv_bagian"
+            android:layout_below="@+id/tv_id_mahasiswa"
             android:layout_alignParentRight="true"
             android:drawableLeft="@drawable/ic_delete_black_24dp"
 
@@ -88,7 +101,7 @@
             android:id="@+id/buttonEdit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/tv_bagian"
+            android:layout_below="@+id/tv_id_mahasiswa"
             android:layout_toLeftOf="@+id/buttonHapus"
             android:drawableLeft="@drawable/ic_edit_black_24dp"
             android:text="EDIT" />
