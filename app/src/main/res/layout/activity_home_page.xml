@@ -8,20 +8,20 @@
     android:orientation="vertical">
 
 
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:background="@color/olive_drab">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/olive_drab">
 
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textSize="24dp"-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="24dp"
 
-<!--            android:text="MENU UTAMA"-->
-<!--            android:textAlignment="center" />-->
-<!--    </LinearLayout>-->
+            android:text="MENU UTAMA"
+            android:textAlignment="center" />
+    </LinearLayout>
 
     <GridLayout
         android:layout_width="match_parent"
